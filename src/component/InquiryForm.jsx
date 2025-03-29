@@ -93,7 +93,7 @@ const InquiryForm = () => {
     template_params: {
       from_name: formData.name,
       to_name: "SuperCools",
-      from_num: formData.number,
+      from_num: formData.phone,
       from_city: formData.city,
       from_cat: formData.productCategory,
       from_pro: formData.productType,
@@ -113,8 +113,8 @@ const InquiryForm = () => {
     axios
       .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then((res) => {
-        console.log("Success - ", res.data);
-        console.log(res);
+        // console.log("Success - ", res.data);
+        // console.log(res);
         setFormData({
           productCategory: "",
           productType: "",
