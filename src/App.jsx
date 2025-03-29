@@ -5,6 +5,7 @@ import ServiceCenters from "./component/ServiceCenters";
 import Image from "./component/Image";
 import ProductGallery from "./component/ProductGallery";
 import Footer from "./component/Footer";
+import ContactBar from "./component/ContactBar";
 const App = () => {
   return (
     <>
@@ -15,7 +16,8 @@ const App = () => {
       <Image />
       <BannerText />
       <ProductGallery />
-      <Footer />
+      <Footer bar={true} />
+      <ContactBar bar={true} />
     </>
   );
 };
