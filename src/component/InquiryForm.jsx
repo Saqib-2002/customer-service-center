@@ -92,7 +92,7 @@ const InquiryForm = () => {
     user_id: ids.user,
     template_params: {
       from_name: formData.name,
-      to_name: "Saqib",
+      to_name: "SuperCools",
       from_num: formData.number,
       from_city: formData.city,
       from_cat: formData.productCategory,
