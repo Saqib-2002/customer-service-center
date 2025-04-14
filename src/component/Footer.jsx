@@ -8,7 +8,7 @@ const Footer = ({ bar }) => {
   ];
 
   return (
-    <footer className={`bg-blue md:px-4" id="contact py-8 text-white ${bar ? "pb-16" : ""}`}>
+    <footer className={`bg-blue md:px-4" id="#contact py-8 text-white ${bar ? "pb-16" : ""}`}>
       <div className="mx-auto max-w-6xl">
         {/* Service Categories */}
         <div className="mb-8 flex flex-wrap justify-center gap-4 md:gap-8">
