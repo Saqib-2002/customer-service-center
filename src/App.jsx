@@ -6,12 +6,14 @@ import Image from "./component/Image";
 import ProductGallery from "./component/ProductGallery";
 import Footer from "./component/Footer";
 import ContactBar from "./component/ContactBar";
+import BrandCarousel from "./component/BrandCarousel";
 const App = () => {
   return (
     <>
       <Header />
       <InquiryForm />
       <Text />
+      <BrandCarousel />
       <ServiceCenters />
       <Image />
       <BannerText />

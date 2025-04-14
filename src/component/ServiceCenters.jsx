@@ -41,7 +41,10 @@ const ServiceCenters = () => {
     "*Samsung Center Near Me*",
   ];
   return (
-    <div id="about" className="mx-4 mt-24 text-start text-sm leading-6 text-zinc-700 md:mx-28 md:max-w-[80%]">
+    <div
+      id="about"
+      className="mx-4 mt-16 text-start text-sm leading-6 text-zinc-700 md:mx-28 md:max-w-[80%]"
+    >
       <p>
         <span className="font-bold">
           Welcome To Samsung Official Customer Care

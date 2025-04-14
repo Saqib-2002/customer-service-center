@@ -2,3 +2,31 @@
 @theme {
   --color-blue: #1b2d4d;
 }
+
+/* index.css */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      -50%
+    ); /* Move the entire container completely out of view */
+  }
+}
+
+.animate-scroll {
+  display: flex; /* Use flexbox for horizontal layout */
+  width: max-content;
+  animation: scroll 20s linear infinite; /* Infinite scroll animation */
+}
+
+.scroll-container {
+  overflow: hidden; /* Hide anything that moves out of the container */
+  width: 100%; /* Make sure the container has enough width */
+}
+
+.scroll-content {
+  display: flex; /* Flexbox to display content inline */
+  white-space: nowrap; /* Prevent line breaks inside the container */
+}

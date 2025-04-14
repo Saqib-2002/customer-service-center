@@ -100,13 +100,16 @@ const Header = () => {
             {menuItems.map((item, index) => (
               <li key={index} className="w-full text-center">
                 <a
-                  href={item.link}
+                  href={`#${item.link}`}
                   className={`block w-full py-2 transition-colors duration-200 ${
                     item.name === "Home"
                       ? "bg-zinc-800 text-white"
                       : "text-zinc-700 hover:bg-zinc-800 hover:text-white"
                   }`}
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollTo(item.link);
+                  }}
                 >
                   {item.name}
                 </a>
