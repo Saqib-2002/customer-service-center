@@ -13,7 +13,7 @@ const ContactBar = ({ bar }) => {
 
   return bar ? (
     <a
-      href="tel:+918000815400"
+      href="tel:+91 8800135081"
       className="fixed bottom-0 flex w-full items-center justify-center bg-green-600 py-2 text-3xl font-semibold text-white shadow-lg hover:bg-green-700 hover:text-gray-100"
     >
       <span
@@ -21,12 +21,12 @@ const ContactBar = ({ bar }) => {
           isYellow ? "text-yellow-400" : "text-white"
         }`}
       >
-        +918000815400
+        +91 8800135081
       </span>
     </a>
   ) : (
     <a
-      href="tel:+918000815400"
+      href="tel:+91 8800135081"
       className="text-md fixed right-6 bottom-6 flex h-14 w-14 transform items-center justify-center rounded-full bg-green-500 font-semibold text-white shadow-lg transition-transform hover:scale-110 hover:bg-green-600 hover:text-gray-100"
     >
       <svg

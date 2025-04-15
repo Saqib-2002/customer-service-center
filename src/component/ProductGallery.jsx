@@ -1,13 +1,13 @@
 import { useState } from "react";
-import image1 from "../assets/productGallery/image1.png";
-import image2 from "../assets/productGallery/image2.png";
-import image3 from "../assets/productGallery/image3.png";
-import image4 from "../assets/productGallery/image4.png";
-import image5 from "../assets/productGallery/image5.png";
-import image6 from "../assets/productGallery/image6.png";
-import image7 from "../assets/productGallery/image7.png";
-import image8 from "../assets/productGallery/image8.png";
-import image9 from "../assets/productGallery/image9.png";
+import image1 from "../assets/productGallery/image1.webp";
+import image2 from "../assets/productGallery/image2.webp";
+import image3 from "../assets/productGallery/image3.avif";
+import image4 from "../assets/productGallery/image4.jpg";
+import image5 from "../assets/productGallery/image5.webp";
+import image6 from "../assets/productGallery/image6.webp";
+import image7 from "../assets/productGallery/image7.webp";
+import image8 from "../assets/productGallery/image8.webp";
+import image9 from "../assets/productGallery/image9.jpg";
 
 const ProductGallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);

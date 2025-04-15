@@ -24,7 +24,7 @@ const Footer = ({ bar }) => {
           <h3 className="mb-4 text-3xl font-bold">Contact Us</h3>
           <button className="rounded-md bg-black px-4 py-2 text-white hover:bg-zinc-900">
             <a
-              href="tel:+918000815400"
+              href="tel:+91 8800135081"
               className="text-md inline-flex items-center font-semibold hover:text-gray-100"
             >
               <svg
@@ -35,7 +35,7 @@ const Footer = ({ bar }) => {
               >
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
               </svg>
-              +91 8000815400
+              +91 8800135081
             </a>
           </button>
         </div>
