@@ -21,7 +21,7 @@ const ContactBar = ({ bar }) => {
           isYellow ? "text-yellow-400" : "text-white"
         }`}
       >
-        +91 8800135081
+        (Call Us) +91 8800135081
       </span>
     </a>
   ) : (

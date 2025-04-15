@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo1.png";
 
 const menuItems = [
   { name: "Home", link: "" },
